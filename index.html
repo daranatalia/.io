@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Borneo</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            background-color: #333;
+            padding: 10px 20px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+        }
+        .hero {
+            background-image: url('hotel.webp');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        .section {
+            padding: 60px 20px;
+        }
+        .section h2 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .rooms, .amenities, .testimonials, .offers {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .rooms img, .amenities img, .testimonials img, .offers img {
+            max-width: 100%;
+            margin: 10px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#rooms">Rooms</a>
+        <a href="#amenities">Fasilitas</a>
+        <a href="#dining">Besmen Bawah</a>
+        <a href="#contact">Contact Us</a>
+    </div>
+
+    <div class="hero">
+        <h1>Welcome to Hotel Borneo</h1>
+    </div>
+    <div class="section" id="rooms">
+        <h2>Selamat datang di kamar Hotel Borneo </h2>
+        <div class="rooms">
+            <img src="room.jpeg" alt="Room 1"  width="300" height="300"/>
+            <img src="room2.webp" alt="Room 2" width="300" height="300"/>
+            <img src="room3.jpeg" alt="Room 2" width="300" height="300"/>
+            <img src="room4.jpg" alt="Room 2" width="300" height="300"/>
+            <img src="room5.avif" alt="Room 2" width="300" height="300"/>
+        </div>
+    </div>
+
+    <div class="section" id="amenities">
+        <h2> ini Adalah Fasilitas Yang Terdapat di Hotel Borneo</h2>
+        <div class="amenities">
+            <img src="fasilitas.jpg" alt="Amenity 1" width="300" height="300"/>
+            <img src="fasilitas2.jpeg" alt="Amenity 2"  width="300" height="300"/>
+            <img src="fasilitas3.jpg" alt="Amenity 2"  width="300" height="300"/>
+            <img src="fasilitas4.webp" alt="Amenity 2"  width="300" height="300"/>
+            <img src="fasilitas5.jpg" alt="Amenity 2"  width="300" height="300"/>
+        </div>
+    </div>
+
+    <div class="section" id="testimonials">
+        <h2>Besmen Bawah</h2>
+        <div class="testimonials">
+            <img src="cafe.jpeg" alt="Testimonial 1" width="400" height="400"/>
+            <img src="cafe2.webp" alt="Testimonial 2"  width="400" height="400"/>
+            <img src="cafe3.webp" alt="Testimonial 2"  width="400" height="400"/>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Contact us: <a href="mailto:info@hotel.com">info@hotel.com</a></p>
+        <p>Follow us on 
+            <a href="https://www.facebook.com/profile.php?id=100072691826647">Facebook</a>, 
+            <a href="https://www.instagram.com/yxy_natali/">Instagram</a>, 
+            <a href="https://wa.me/6285752925055">WhatsApp</a>
+        </p>
+        <img src="profil.jpeg" alt="Hotel Logo"  width="500" height="500">
+    </div>
+</body>
+</html>
